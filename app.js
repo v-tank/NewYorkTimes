@@ -20,7 +20,8 @@ function getData() {
 
 	  for (var i = 0; i < parseInt($("#limit").val()); i++) {
 	  	var container = $("<div>");
-	  	var title = result;
+	  	var title = result.docs[i]["headline"]["main"];
+	  	
 	  }
 
 	});
