@@ -12,6 +12,23 @@
 		<div class="jumbotron">
 			<h1 class="display-3 text-center">NYTimes Article Scraper</h1>
 		</div>
+		<div class="row bg-light border">
+			<div class="col">
+				<h1><strong>Search Parameters</strong></h1>
+			</div>
+		</div>
+		<div class="row border">
+			<form>
+				<label for="term"><strong>Search Term: </strong></label><br>
+				<input type="text" id="term"><br>
+				<label for="limit"><strong>Number of records to Retrieve: </strong></label><br>
+				<input type="text" id="limit"><br>
+				<label for="start"><strong>Start Year: </strong></label><br>
+				<input type="text" id="start"><br>
+				<label for="end"><strong>End Year: </strong></label><br>
+				<input id="search" type="submit" value="Search">
+				<input id="clear" type="submit" value="Clear">
+
 	</div>
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
